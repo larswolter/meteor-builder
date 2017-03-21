@@ -1,6 +1,4 @@
 version: '2'
 services:
-  web:
-    build: .
-  redis:
-    image: "docker.io/larswolter:ultisite-builder"
+  ultisite:
+    image: "docker.io/larswolter/ultisite-builder:latest"
